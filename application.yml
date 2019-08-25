@@ -1,0 +1,17 @@
+server:
+  profiles:
+    active:
+    - dev
+
+---
+server:
+  profiles: dev
+  application:
+    name: microservicecloud-config-jialei-dev
+
+---
+server:
+  profiles: test
+  application:
+    name: microservicecloud-config-jialei-test
+
